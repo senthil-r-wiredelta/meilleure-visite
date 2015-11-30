@@ -1,0 +1,8 @@
+wire_delta_demo:
+    resource: "@WireDeltaDemoBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+events:
+    type: rest
+    resource: "WireDelta\DemoBundle\Controller\EventsController"

@@ -1,0 +1,8 @@
+WireDelta\DemoBundle\Entity\Event:
+    properties:
+        name:
+            - NotBlank: ~
+        date:
+            - NotBlank: ~
+        description:
+            - NotBlank: ~
